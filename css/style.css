@@ -2,3 +2,84 @@
   display:none;
 }
 
+body{
+  font-family: 'Segoe UI',Arial,'Malgun Gothic',Gulim,sans-serif;
+  font-size: 81.25%;
+  background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+margin: 0;
+}
+
+img{
+  position: absolute;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#login-form input[type="text"]{
+  background-color: #D9E9F9;
+  border: none;
+  border-radius: 3px;
+  height: 20px;
+  width: 200px;
+}
+
+#login-form input[type = "submit"]{
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  height: 20px;
+  width: 50px;
+}
+
+#todo-form input{
+  background-color: #D9E9F9;
+  border: none;
+  border-radius: 3px;
+  height: 20px;
+  width: 200px;
+}
+
+input:focus{
+  outline: none;
+}
+
+body, input{
+  margin: 0;
+  padding: 0;
+}
+
+#login-form {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+}
+
+
+#clock{
+  font-size: 80px;
+  position: absolute;
+  left: 40%;
+  top: 35%;
+  transform: translate((-50%, -50%));
+  color: white;
+  text-shadow: 2px 2px 6px gray; ;
+}
+
+#quote{
+  display: table-cell;
+padding-left: 358px;
+}
+
+/* #quote span:first-child{
+  position: absolute;
+  top: 60%;
+  left: 10%;
+  margin: -25px 0 0 -25px;
+} */
+
