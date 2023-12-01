@@ -22,19 +22,26 @@ img{
 }
 
 #login-form input[type="text"]{
-  background-color: #D9E9F9;
+  background-color: none;
   border: none;
+  border-bottom: solid #aaaaaa 1px;
   border-radius: 3px;
+  text-align: center;
   height: 20px;
-  width: 200px;
+  width: 319.45px;
+  font-size: 20px;
+  color: #222222;
+  padding-bottom: 10px;
+  background: none;
 }
 
 #login-form input[type = "submit"]{
-  background-color: white;
-  border: none;
-  border-radius: 3px;
-  height: 20px;
+  background: none;
+  color: #222222;
+  border-radius: 50%;
   width: 50px;
+  height: 50px;
+  border: 1px solid #222222;
 }
 
 #todo-form input{
@@ -56,15 +63,15 @@ body, input{
 
 #login-form {
   position: absolute;
-  top: 60%;
-  left: 50%;
+  top: 52%;
+  left: 42%;
 }
 
 
 #clock{
   font-size: 80px;
   position: absolute;
-  left: 40%;
+  left: 42%;
   top: 35%;
   transform: translate((-50%, -50%));
   color: white;
